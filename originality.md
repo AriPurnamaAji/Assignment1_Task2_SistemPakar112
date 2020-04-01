@@ -46,5 +46,3 @@ colors = G.copy().transpose((1, 0, 2))/255
 # Plot permukaan dengan face color yang diambil dari matriks array yang telah dibuat
 surf1 = ax.plot_surface(Xn, Yn, Zn, facecolors=colors, linewidth=0)
 ```
-
-==================================================================================================
